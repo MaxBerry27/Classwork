@@ -1,1 +1,10 @@
+age = float(input("enter your dogs age in human years: "))
 
+if age < 0.0:
+  print("error")
+else:
+  if age <= 2.0:
+    dog_age = age * 10.5
+  else:
+    dog_age = 21.0 + ((age-2) * 4)
+print(f"your dog is {dog_age} years old in dog years")
