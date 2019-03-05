@@ -1,1 +1,8 @@
+Letter = str(input("pick a letter "))
 
+if Letter == "a" or Letter == "e" or Letter == "i" or Letter == "o" or Letter == "u":
+  print("this letter is a vowel")
+elif Letter == "y":
+  print("this letter is both and just weird")
+else:
+  print("this letter is a consonant")
