@@ -1,1 +1,20 @@
-
+print("enter th enumber of sides your shape has (3-10")
+sides = int(input("number of sides: "))
+if sides == 3:
+  print("this shape is a triangle")
+elif sides == 4:
+  print("this shape is a rectangle")
+elif sides == 5:
+  print("this shape is a pentagone")
+elif sides == 6:
+  print("this shape is a hexagone")
+elif sides == 7:
+  print("this shape is a heptagone")
+elif sides == 8:
+  print("this shape is a octagone")
+elif sides == 9:
+  print("this shape is a nonagone")
+elif sides == 10:
+  print("this shape is a decagone")
+else:
+  print("not sure bud")
