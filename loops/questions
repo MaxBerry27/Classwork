@@ -1,7 +1,14 @@
 #1
-
+word = input("type out any word: ")
+vowel = "a", "e", "i", "o", "u"
+for char in word:
+ if char not in vowel:
+  print(char)
 #2
-
+nums = [20, 3, 6, 15, 90, 67]
+for num in nums:
+  if num > 10:
+   print(num)
 #3
 
 #4
